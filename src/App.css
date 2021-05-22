@@ -14,12 +14,17 @@ body {
   letter-spacing: 0.0375rem;
   font-weight: 500;
   cursor: pointer;
-  /* font-size: .9rem; */
 }
-nav ul li {
+nav ul li .nav-link {
   text-transform: uppercase;
-  /* font-family: 'Roboto Condensed', sans-serif; */
   font-family: 'Poppins', sans-serif;
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+  border-top: 0.125rem solid rgba(255, 255, 255, 0);
+}
+nav ul li .nav-link.active, nav ul li .nav-link.active:focus {
+  border-top: 0.125rem solid #F21B3F;
+}
+nav ul li .nav-link:hover {
+  border-top: 0.125rem solid #F21B3F;
 }
