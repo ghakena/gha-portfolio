@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
 
 body {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Newsreader', serif;
 }
 /* Navbar styling */
 .navbar-brand {
@@ -17,14 +20,35 @@ body {
 }
 nav ul li .nav-link {
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   border-top: 0.125rem solid rgba(255, 255, 255, 0);
 }
 nav ul li .nav-link.active, nav ul li .nav-link.active:focus {
-  border-top: 0.125rem solid #F21B3F;
+  border-top: 0.125rem solid #F46036;
 }
 nav ul li .nav-link:hover {
-  border-top: 0.125rem solid #F21B3F;
+  border-top: 0.125rem solid #F46036;
+}
+
+/* Header */
+.header-wrapper {
+  position: relative;
+  background: url('https://res.cloudinary.com/rokuirie/image/upload/v1621370073/Portfolio/quentin-schulz-sQ74rgQsPvI-unsplash_1_byrjtb_1_imt6km.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Newsreader', serif;
+}
+.main-info h1 {
+  color: #F46036;
+  text-transform: uppercase;
 }
