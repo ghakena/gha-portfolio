@@ -2,16 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
 body {
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Newsreader', serif;
 }
 /* Navbar styling */
+nav {
+  z-index: 1;
+}
 .navbar-brand {
-  font-family: 'KoHo', sans-serif;
+  /* font-family: 'KoHo', sans-serif; */
   font-size: 16.25rem;
+  font-family: 'Reggae One', cursive;
 }
 .navbar-nav .nav-item .nav-link {
   letter-spacing: 0.0375rem;
@@ -42,13 +46,51 @@ nav ul li .nav-link:hover {
 }
 .main-info {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: 'Newsreader', serif;
+  color: #fff;
+  z-index: 1;
 }
 .main-info h1 {
+  text-transform: uppercase;
   color: #F46036;
+  margin-top: 2rem;
+}
+.main-info .typed-text {
+  font-size: 1.25rem;
+}
+.main-btn {
+  border: 2px solid #F46036;
+  /* border-radius: 0.25rem; */
+  border-radius: 0;
+  padding: 0.625rem 0.75rem;
+  color: #fff;
+  margin-top: 2rem;
   text-transform: uppercase;
 }
+.main-btn:hover {
+  color: #F46036;
+  background-color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+} 
