@@ -78,8 +78,8 @@ nav ul li .nav-link:hover {
   text-transform: uppercase;
 }
 .main-btn:hover {
-  color: #F46036;
-  background-color: #fff;
+  background-color: #F46036;
+  color: #fff;
   text-decoration: none;
   transition: 0.2s ease-in-out;
 }
