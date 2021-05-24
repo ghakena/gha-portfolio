@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 
 body {
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Newsreader', serif;
+  font-family: 'Padauk', sans-serif;
 }
 /* Navbar styling */
 nav {
@@ -17,14 +17,12 @@ nav {
   font-family: 'Reggae One', cursive;
 }
 .navbar-nav .nav-item .nav-link {
-  font-family: 'Poppins', sans-serif;
   letter-spacing: 0.0375rem;
   font-weight: 500;
   cursor: pointer;
 }
 nav ul li .nav-link {
   text-transform: uppercase;
-  /* font-family: 'Poppins', sans-serif; */
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   border-top: 0.125rem solid rgba(255, 255, 255, 0);
@@ -55,13 +53,12 @@ nav ul li .nav-link:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Newsreader', serif;
-  /* font-family: 'Poppins', sans-serif; */
   color: #fff;
   z-index: 1;
 }
 .main-info h1 {
   text-transform: uppercase;
+  font-family: 'Newsreader', serif;
   color: #F46036;
   margin-top: 2rem;
   font-size: 2.5rem !important;
@@ -71,7 +68,6 @@ nav ul li .nav-link:hover {
 }
 .main-btn {
   border: 2px solid #F46036;
-  /* border-radius: 0.25rem; */
   border-radius: 0;
   padding: 0.625rem 0.75rem;
   color: #fff;
@@ -90,18 +86,16 @@ nav ul li .nav-link:hover {
   width: 100vw;
   z-index: 1;
 }
-.padding {
-  padding: 3.125rem;
-}
 .about {
-  height: 110vh;
+  height: 115vh;
   background-color: whitesmoke;
-  font-family: 'Poppins', sans-serif;
 }
 .about h1 {
+  font-size: 2.5rem !important;
   margin-top: 1.875rem;
   color: #F46036;
   font-family: 'Newsreader', serif;
+  text-transform: uppercase;
 }
 .row {
   margin-top: 10vh;
@@ -123,4 +117,24 @@ nav ul li .nav-link:hover {
   .main-info h1 {
     font-size: 1.8rem !important;
   }
-} 
+  .row {
+    margin-top: 5vh;
+  }
+  .about h1 {
+    font-size: 1.8rem !important;
+  }
+  .padding {
+    padding: 0.625rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+  .col-md-7 {
+    margin-top: 0.625rem;
+  }
+}
+@media (min-width: 992px) {
+  .padding {
+    padding: 3.75rem;
+  }
+  
+}
