@@ -9,7 +9,7 @@ const Contact = () => {
           <h1>Contact Me</h1>
         </div>
       <div className="container-fluid">
-        <form className="contact-form" style={{width: "40%"}}>
+        <form className="contact-form">
           {/* <!-- Name input --> */}
           <div class="form-outline mb-4">
             <label class="form-label" for="form4Example1">Name</label>
