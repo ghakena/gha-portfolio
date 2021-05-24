@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const About = () => {
   return (
     <div className="about text-center padding">
-        <h1 className="display-4">About Me</h1>
+        <div className="col-md-12 text-center">
+          <h1>About Me</h1>
+        </div>
         <div className="container">
           <div className="row padding">
             <div className="col-sm-12 col-md-5">

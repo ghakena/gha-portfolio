@@ -8,7 +8,7 @@
 body {
   font-family: 'Padauk', sans-serif;
 }
-/* Navbar styling */
+/* Navbar */
 nav {
   z-index: 30;
 }
@@ -86,26 +86,53 @@ nav ul li .nav-link:hover {
   width: 100vw;
   z-index: 1;
 }
+/* About section */
 .about {
-  height: 115vh;
-  background-color: whitesmoke;
+  background-color:  #2e2d2e;
 }
 .about h1 {
   font-size: 2.5rem !important;
-  margin-top: 1.875rem;
+  padding-top: 1.875rem;
   color: #F46036;
   font-family: 'Newsreader', serif;
   text-transform: uppercase;
 }
-.row {
-  margin-top: 10vh;
-  background-color:  #2e2d2e;
+.about .row {
+  margin-top: 5vh;
   color: whitesmoke;
   font-size: 1.25rem;
 }
-.row img {
+.about .row img {
   width: 100%;
 }
+/* Services */
+.services {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.services h1 {
+  padding-top: 1.875rem;
+  font-size: 2.5rem !important;
+  text-transform: uppercase;
+  font-family: 'Newsreader', serif;
+  color: #F46036;
+}
+.services .row {
+  margin-top: 10vh;
+}
+.services .service-card {
+  margin-top: 3.125rem;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+.services .card-title {
+  text-transform: uppercase;
+}
+
+
+
+
 
 @media (max-width: 768px) {
   .particles-canvas {
@@ -117,24 +144,48 @@ nav ul li .nav-link:hover {
   .main-info h1 {
     font-size: 1.8rem !important;
   }
-  .row {
+  .about .row {
     margin-top: 5vh;
   }
   .about h1 {
     font-size: 1.8rem !important;
   }
-  .padding {
+  .about .padding {
     padding: 0.625rem;
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
   }
-  .col-md-7 {
+  .about .col-md-7 {
     margin-top: 0.625rem;
   }
+  .services .service-card .card {
+    margin-left: 0 auto;
+    float: none;
+  }
+  /* .services .service-card .card:last-child {
+    margin-bottom: 1.25rem;
+  } */
 }
 @media (min-width: 992px) {
   .padding {
     padding: 3.75rem;
+  }
+  .services .service-card .card .card-body {
+    width: 18.75rem !important;
+    height: 15.625rem !important;
+    font-size: 1.125rem;
+  }
+  .material-icons {
+    font-size: 2.5rem;
+  }
+  .services .service-card .card {
+    transition: transform 0.35s;
+  }
+  .services .service-card .card:hover {
+    transform: scale(1.025);
+    border: 1px solid #2e2d2e !important;
+    background-color: whitesmoke !important;
+    color: #2e2d2e !important;
   }
   
 }
