@@ -33,7 +33,6 @@ nav ul li .nav-link.active, nav ul li .nav-link.active:focus {
 nav ul li .nav-link:hover {
   border-top: 0.125rem solid #F46036;
 }
-
 /* Header */
 .header-wrapper {
   position: relative;
@@ -108,7 +107,7 @@ nav ul li .nav-link:hover {
 /* Services */
 .services {
   background-color: whitesmoke;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .services h1 {
   padding-top: 1.875rem;
@@ -118,23 +117,64 @@ nav ul li .nav-link:hover {
   color: #F46036;
 }
 .services .row {
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 .services .service-card {
   margin-top: 3.125rem;
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .services .card-title {
   text-transform: uppercase;
 }
+/* Projects */
+.projects {
+  background-color:  #2e2d2e;
+  /* height: 129vh; */
+}
+.projects h1 {
+  font-size: 2.5rem !important;
+  padding-top: 1.875rem;
+  color: #F46036;
+  font-family: 'Newsreader', serif;
+  text-transform: uppercase;
+}
+.projects .row {
+  margin-top: 5vh;
+}
+.projects .card {
+  margin-bottom: 0.8rem;
+}
+.projects .btn {
+  background-color: #F46036;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-bottom: 1rem;
+}
+.projects .btn:hover {
+  color: #F46036;
+  background-color: #fff;
+  border: 2px solid #F46036;
+  margin-bottom: 1rem;
+}
+.projects .card-title {
+  color: #F46036;
+}
+
 
 
 
 
 
 @media (max-width: 768px) {
+  nav .navbar-brand {
+    font-size: 0.95rem !important;
+  }
+  nav ul li .nav-link {
+    font-size: 0.85rem !important;
+  }
   .particles-canvas {
     display: none;
   }
@@ -157,14 +197,21 @@ nav ul li .nav-link:hover {
   }
   .about .col-md-7 {
     margin-top: 0.625rem;
+    font-size: 0.95rem !important;
+  }
+  .services h1 {
+    font-size: 1.8rem !important;
   }
   .services .service-card .card {
     margin-left: 0 auto;
     float: none;
   }
-  /* .services .service-card .card:last-child {
-    margin-bottom: 1.25rem;
-  } */
+  .projects h1 {
+    font-size: 1.8rem !important;
+  }
+  .projects .card img {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
   .padding {
@@ -183,9 +230,16 @@ nav ul li .nav-link:hover {
   }
   .services .service-card .card:hover {
     transform: scale(1.025);
-    border: 1px solid #2e2d2e !important;
+    border: 2px solid #2e2d2e !important;
     background-color: whitesmoke !important;
     color: #2e2d2e !important;
+  }
+  .projects .card {
+    border: 2px solid #2e2d2e;
+    cursor: pointer;
+  }
+  .projects .card:hover {
+    border: 2px solid #fff;
   }
   
 }
