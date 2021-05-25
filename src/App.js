@@ -7,10 +7,12 @@ import About from './components/About';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
         <>
+          <ScrollToTop />
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home}/>
