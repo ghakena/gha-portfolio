@@ -179,9 +179,6 @@ nav ul li .nav-link:hover {
   border-radius: 0.25rem !important;
   padding: 0.625rem !important;
 }
-.form label {
-  font-size: 1.3rem;
-}
 .contact .form .btn {
   background-color: #F46036;
   color: white;
@@ -254,6 +251,9 @@ nav ul li .nav-link:hover {
   .contact h1 {
     font-size: 1.8rem !important;
   }
+  .form label {
+    font-size: 0.95rem;
+  }
 }
 @media (min-width: 992px) {
   .padding {
@@ -289,6 +289,9 @@ nav ul li .nav-link:hover {
   }
   .projects .card:hover {
     border: 2px solid #fff;
+  }
+  .form label {
+    font-size: 1.3rem;
   }
 
 }
