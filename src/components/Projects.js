@@ -14,7 +14,7 @@ const Projects = () => {
               <img
                 src={"https://res.cloudinary.com/rokuirie/image/upload/v1621850114/Portfolio/aleks-dahlberg-b7DzEp2lsRI-unsplash_1_ibkjos.jpg"}
                 class="card-img-top"
-                alt=""
+                alt="weather-img"
               />
               <div class="card-body">
                 <h5 class="card-title">LUGANDA WEATHER PERSONAL ASSISTANT</h5>
@@ -22,8 +22,10 @@ const Projects = () => {
                   A desktop weather app using the OpenWeatherMap API for forecasts in Luganda, 
                   a native Ugandan language, with Java.
                 </p>
-                <Link to={{pathname: "https://github.com/rokuirie/weather-forecast-app"}} class="btn" 
-                target="_blank">
+                <Link 
+                  to={{pathname: "https://github.com/rokuirie/weather-forecast-app"}} className="btn" 
+                  target="_blank"
+                >
                   Check It Out
                 </Link>
               </div>
@@ -34,15 +36,18 @@ const Projects = () => {
               <img
                 src={"https://res.cloudinary.com/rokuirie/image/upload/v1621850986/Portfolio/micheile-henderson-ZVprbBmT8QA-unsplash_1_gpazmn.jpg"}
                 class="card-img-top"
-                alt=""
+                alt="overwood-img"
               />
               <div class="card-body">
                 <h5 class="card-title">THE OVERWOOD INTSHP WEBSITE CHALLENGE</h5>
                 <p class="card-text">
-                A team project built during a design challenge sponsored by Overwood Company Ltd. Nigeria.
-                Executed by a team of five.
+                  A team project built during a design challenge sponsored by Overwood Company Ltd. Nigeria.
+                  Executed by a team of five.
                 </p>
-                <Link to={{pathname: "https://github.com/rokuirie/Overwood-Team-Five"}} class="btn" target="_blank">
+                <Link 
+                  to={{pathname: "https://github.com/rokuirie/Overwood-Team-Five"}} className="btn" 
+                  target="_blank"
+                >
                   Check It Out
                 </Link>
               </div>
@@ -53,7 +58,7 @@ const Projects = () => {
               <img
                 src={"https://res.cloudinary.com/rokuirie/image/upload/v1621851516/Portfolio/lukas-blazek-mcSDtbWXUZU-unsplash_1_aw1uyx.jpg"}
                 class="card-img-top"
-                alt=""
+                alt="ml-img"
               />
               <div class="card-body">
                 <h5 class="card-title">MACHINE LEARNING MODELLING WITH KERAS</h5>
