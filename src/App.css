@@ -123,7 +123,6 @@ nav ul li .nav-link:hover {
   margin-top: 3.125rem;
   margin: 0 auto;
   float: none;
-  margin-bottom: 10px;
   cursor: pointer;
 }
 .services .card-title {
@@ -163,45 +162,47 @@ nav ul li .nav-link:hover {
   color: #F46036;
 }
 .contact {
-  background-image: url("https://res.cloudinary.com/rokuirie/image/upload/v1621857221/Portfolio/opticalnomad-ots0EOYuGtU-unsplash_1_lr3hmn.jpg");
-  background-repeat: no-repeat;
+  background-image: url("https://res.cloudinary.com/rokuirie/image/upload/v1621925748/Portfolio/bekky-bekks-gk-2lMtCeR8-unsplash_1_rhfwwf.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  height: 110vh;
 }
 .contact h1 {
   font-size: 2.5rem !important;
-  padding-top: 1.875rem;
+  padding-top: 2.5rem;
   color: #F46036;
   font-family: 'Newsreader', serif;
   text-transform: uppercase;
 }
-.contact .contact-form {
-  margin: auto;
-  padding-top: 1rem;
+.form-control {
+  border: 1.8px solid #2e2d2e;
+  border-radius: 0.25rem !important;
+  padding: 0.625rem !important;
 }
-.contact .contact-form .btn {
+.form label {
+  font-size: 1.3rem;
+}
+.contact .form .btn {
   background-color: #F46036;
   color: white;
   text-align: center;
   width: 5rem;
   border: 2px solid #F46036;
+  margin-bottom: 2rem;
 }
-.contact .contact-form .btn:hover {
+.contact .form .btn:hover {
   color: #F46036;
   background-color: white;
   text-align: center;
   width: 5rem;
   border: 2px solid #F46036;
+  margin-bottom: 2rem;
 }
-.contact .contact-form .form-control {
-  border: 2px solid #F46036;
-  padding: 0.625rem !important;
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.8rem;
 }
-
-
-
-
 
 @media (max-width: 768px) {
   nav .navbar-brand {
@@ -247,6 +248,9 @@ nav ul li .nav-link:hover {
   .projects .card img {
     display: none;
   }
+  .contact {
+    background-image: none;
+  }
   .contact h1 {
     font-size: 1.8rem !important;
   }
@@ -259,6 +263,13 @@ nav ul li .nav-link:hover {
     width: 18.75rem !important;
     height: 15.625rem !important;
     font-size: 1.125rem;
+  }
+  .services .service-card {
+    margin-top: 3.125rem;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 5rem;
+    cursor: pointer;
   }
   .material-icons {
     font-size: 2.5rem;
@@ -279,13 +290,5 @@ nav ul li .nav-link:hover {
   .projects .card:hover {
     border: 2px solid #fff;
   }
-  .contact .contact-form {
-    margin: auto;
-    padding-top: 1rem;
-    width: 40%;
-  }
-  .contact .contact-form .form-control {
-    font-size: 1rem;
-  } 
-  
+
 }
