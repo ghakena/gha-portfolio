@@ -10,7 +10,7 @@ const Contact = () => {
 
   const validate = Yup.object({
     name: Yup.string()
-      .min(5, "Must be at least 5 characters")
+      .min(4, "Must be at least 4 characters")
       .required("Name is required"),
     email: Yup.string()
       .email("Invalid email address")
