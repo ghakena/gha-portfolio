@@ -67,7 +67,7 @@ nav ul li .nav-link:hover {
 }
 .main-btn {
   border: 2px solid #F46036;
-  border-radius: 0;
+  border-radius: 0.20rem;
   padding: 0.625rem 0.75rem;
   color: #fff;
   margin-top: 2rem;
