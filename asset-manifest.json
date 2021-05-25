@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gha-portfolio/static/css/main.6cfac424.chunk.css",
+    "main.js": "/gha-portfolio/static/js/main.dfee8f3a.chunk.js",
+    "main.js.map": "/gha-portfolio/static/js/main.dfee8f3a.chunk.js.map",
+    "runtime-main.js": "/gha-portfolio/static/js/runtime-main.8de4bf19.js",
+    "runtime-main.js.map": "/gha-portfolio/static/js/runtime-main.8de4bf19.js.map",
+    "static/css/2.92200efa.chunk.css": "/gha-portfolio/static/css/2.92200efa.chunk.css",
+    "static/js/2.4985e6ba.chunk.js": "/gha-portfolio/static/js/2.4985e6ba.chunk.js",
+    "static/js/2.4985e6ba.chunk.js.map": "/gha-portfolio/static/js/2.4985e6ba.chunk.js.map",
+    "static/js/3.bb6b1275.chunk.js": "/gha-portfolio/static/js/3.bb6b1275.chunk.js",
+    "static/js/3.bb6b1275.chunk.js.map": "/gha-portfolio/static/js/3.bb6b1275.chunk.js.map",
+    "index.html": "/gha-portfolio/index.html",
+    "static/css/2.92200efa.chunk.css.map": "/gha-portfolio/static/css/2.92200efa.chunk.css.map",
+    "static/css/main.6cfac424.chunk.css.map": "/gha-portfolio/static/css/main.6cfac424.chunk.css.map",
+    "static/js/2.4985e6ba.chunk.js.LICENSE.txt": "/gha-portfolio/static/js/2.4985e6ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8de4bf19.js",
+    "static/css/2.92200efa.chunk.css",
+    "static/js/2.4985e6ba.chunk.js",
+    "static/css/main.6cfac424.chunk.css",
+    "static/js/main.dfee8f3a.chunk.js"
+  ]
+}
