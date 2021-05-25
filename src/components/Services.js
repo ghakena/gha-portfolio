@@ -10,7 +10,6 @@ const Services = () => {
       <div className="row">
         <div className="col-md-3 service-card">
           <div class="card text-white bg-dark mb-3" style={{maxWidth: "19rem"}}>
-            {/* <div class="card-header">Header</div> */}
             <div class="card-body">
               <span class="material-icons">
                   design_services
@@ -25,7 +24,6 @@ const Services = () => {
         </div>
           <div className="col-md-3 service-card">
             <div class="card text-white bg-dark mb-3" style={{maxWidth: "19rem"}}>
-              {/* <div class="card-header">Header</div> */}
               <div class="card-body">
                 <span class="material-icons">
                   computer
@@ -41,7 +39,6 @@ const Services = () => {
           </div>
           <div className="col-md-3 service-card">
             <div class="card text-white bg-dark mb-3" style={{maxWidth: "19rem"}}>
-              {/* <div class="card-header">Header</div> */}
               <div class="card-body">
                 <span class="material-icons">
                   analytics

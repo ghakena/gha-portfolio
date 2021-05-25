@@ -22,7 +22,7 @@ const Projects = () => {
                   A desktop weather app using the OpenWeatherMap API for forecasts in Luganda, 
                   a native Ugandan language, with Java.
                 </p>
-                <Link to={"https://github.com/rokuirie/weather-forecast-app"} class="btn" 
+                <Link to={{pathname: "https://github.com/rokuirie/weather-forecast-app"}} class="btn" 
                 target="_blank">
                   Check It Out
                 </Link>
@@ -42,7 +42,7 @@ const Projects = () => {
                 A team project built during a design challenge sponsored by Overwood Company Ltd. Nigeria.
                 Executed by a team of five.
                 </p>
-                <Link to={"https://github.com/rokuirie/Overwood-Team-Five"} class="btn" target="_blank">
+                <Link to={{pathname: "https://github.com/rokuirie/Overwood-Team-Five"}} class="btn" target="_blank">
                   Check It Out
                 </Link>
               </div>
@@ -61,7 +61,7 @@ const Projects = () => {
                   A simple and precise look into the deep learning library Keras, and how it 
                   can be used to solve real-world problems.
                 </p>
-                <Link to={"https://github.com/rokuirie/Visualisations-with-python-matplotlib-pygal-"} 
+                <Link to={{pathname: "https://github.com/rokuirie/Visualisations-with-python-matplotlib-pygal-"}} 
                 class="btn"
                 target="_blank"
                 >
