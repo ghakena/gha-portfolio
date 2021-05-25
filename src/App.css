@@ -183,7 +183,7 @@ nav ul li .nav-link:hover {
   background-color: #F46036;
   color: white;
   text-align: center;
-  width: 5rem;
+  width: 10rem;
   border: 2px solid #F46036;
   margin-bottom: 2rem;
 }
@@ -191,7 +191,7 @@ nav ul li .nav-link:hover {
   color: #F46036;
   background-color: white;
   text-align: center;
-  width: 5rem;
+  /* width: 5rem; */
   border: 2px solid #F46036;
   margin-bottom: 2rem;
 }
