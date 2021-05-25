@@ -59,7 +59,7 @@ nav ul li .nav-link:hover {
   text-transform: uppercase;
   font-family: 'Newsreader', serif;
   color: #F46036;
-  margin-top: 2rem;
+  margin-top: 10rem;
   font-size: 2.5rem !important;
 }
 .main-info .typed-text {
@@ -91,7 +91,7 @@ nav ul li .nav-link:hover {
 }
 .about h1 {
   font-size: 2.5rem !important;
-  padding-top: 1.875rem;
+  padding-top: 2.5rem;
   color: #F46036;
   font-family: 'Newsreader', serif;
   text-transform: uppercase;
@@ -110,7 +110,7 @@ nav ul li .nav-link:hover {
   /* height: 100vh; */
 }
 .services h1 {
-  padding-top: 1.875rem;
+  padding-top: 2.5rem;  
   font-size: 2.5rem !important;
   text-transform: uppercase;
   font-family: 'Newsreader', serif;
@@ -135,7 +135,7 @@ nav ul li .nav-link:hover {
 }
 .projects h1 {
   font-size: 2.5rem !important;
-  padding-top: 1.875rem;
+  padding-top: 2.5rem;
   color: #F46036;
   font-family: 'Newsreader', serif;
   text-transform: uppercase;
@@ -169,7 +169,7 @@ nav ul li .nav-link:hover {
 }
 .contact h1 {
   font-size: 2.5rem !important;
-  padding-top: 2.5rem;
+  margin-top: 2.5rem;
   color: #F46036;
   font-family: 'Newsreader', serif;
   text-transform: uppercase;
@@ -216,11 +216,21 @@ nav ul li .nav-link:hover {
   .main-info h1 {
     font-size: 1.8rem !important;
   }
+  .main-btn {
+    border: 2px solid #F46036;
+    border-radius: 0.20rem;
+    padding: 0.3125rem 0.3125rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem !important;
+  }
   .about .row {
     margin-top: 5vh;
   }
   .about h1 {
     font-size: 1.8rem !important;
+    padding-top: 4rem;
   }
   .about .padding {
     padding: 0.625rem;
@@ -233,6 +243,7 @@ nav ul li .nav-link:hover {
   }
   .services h1 {
     font-size: 1.8rem !important;
+    padding-top: 4rem;
   }
   .services .service-card .card {
     margin-left: 0 auto;
@@ -240,6 +251,7 @@ nav ul li .nav-link:hover {
   }
   .projects h1 {
     font-size: 1.8rem !important;
+    padding-top: 4rem;
   }
   .projects .card img {
     display: none;
@@ -249,6 +261,7 @@ nav ul li .nav-link:hover {
   }
   .contact h1 {
     font-size: 1.8rem !important;
+    padding-top: 4rem;
   }
   .form label {
     font-size: 0.95rem;
