@@ -8,7 +8,6 @@
 body {
   font-family: 'Padauk', sans-serif;
 }
-/* Navbar */
 nav {
   z-index: 30;
 }
@@ -33,7 +32,6 @@ nav ul li .nav-link.active, nav ul li .nav-link.active:focus {
 nav ul li .nav-link:hover {
   border-top: 0.125rem solid #F46036;
 }
-/* Header */
 .header-wrapper {
   position: relative;
   background: url('https://res.cloudinary.com/rokuirie/image/upload/v1621370073/Portfolio/quentin-schulz-sQ74rgQsPvI-unsplash_1_byrjtb_1_imt6km.jpg') no-repeat;
@@ -85,7 +83,6 @@ nav ul li .nav-link:hover {
   width: 100vw;
   z-index: 1;
 }
-/* About section */
 .about {
   background-color:  #2e2d2e;
 }
@@ -104,10 +101,8 @@ nav ul li .nav-link:hover {
 .about .row img {
   width: 100%;
 }
-/* Services */
 .services {
   background-color: whitesmoke;
-  /* height: 100vh; */
 }
 .services h1 {
   padding-top: 2.5rem;  
@@ -128,10 +123,8 @@ nav ul li .nav-link:hover {
 .services .card-title {
   text-transform: uppercase;
 }
-/* Projects */
 .projects {
   background-color:  #2e2d2e;
-  /* height: 129vh; */
 }
 .projects h1 {
   font-size: 2.5rem !important;
@@ -245,10 +238,6 @@ nav ul li .nav-link:hover {
     font-size: 1.8rem !important;
     padding-top: 4rem;
   }
-  .services .service-card .card {
-    margin-left: 0 auto;
-    float: none;
-  }
   .projects h1 {
     font-size: 1.8rem !important;
     padding-top: 4rem;
@@ -266,34 +255,30 @@ nav ul li .nav-link:hover {
   .form label {
     font-size: 0.95rem;
   }
+.services .services-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: space-between;
+  align-content: center;
+}
+.service-item-1, .service-item-2, .service-item-3 {
+  background-color: #2e2d2e;
+  color: #fff;
+  padding: 2rem;
+  flex: 1;
+  border-radius: 0.2rem !important;
+}
+.service-item-3 {
+  margin-bottom: 2rem;
+}
 }
 @media (min-width: 992px) {
   .padding {
     padding: 3.75rem;
   }
-  .services .service-card .card .card-body {
-    width: 18.75rem !important;
-    height: 15.625rem !important;
-    font-size: 1.125rem;
-  }
-  .services .service-card {
-    margin-top: 3.125rem;
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 5rem;
-    cursor: pointer;
-  }
   .material-icons {
     font-size: 2.5rem;
-  }
-  .services .service-card .card {
-    transition: transform 0.35s;
-  }
-  .services .service-card .card:hover {
-    transform: scale(1.025);
-    border: 2px solid #2e2d2e !important;
-    background-color: whitesmoke !important;
-    color: #2e2d2e !important;
   }
   .projects .card {
     border: 2px solid #2e2d2e;
@@ -305,5 +290,28 @@ nav ul li .nav-link:hover {
   .form label {
     font-size: 1.3rem;
   }
-
+  .services .services-items {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .service-item-1, .service-item-2, .service-item-3 {
+    background-color: #2e2d2e;
+    color: #fff;
+    padding: 2rem;
+    flex: 1;
+    border-radius: 0.2rem !important;
+  }
+  .service-item-1, .service-item-2, .service-item-3 {
+    transition: transform 0.35s;
+    margin-bottom: 2rem;
+  }
+  .service-item-1:hover, .service-item-2:hover, .service-item-3:hover {
+    transform: scale(1.025);
+    border: 2px solid #2e2d2e !important;
+    background-color: whitesmoke !important;
+    color: #2e2d2e !important;
+  }
 }

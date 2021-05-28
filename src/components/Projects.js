@@ -63,8 +63,8 @@ const Projects = () => {
               <div class="card-body">
                 <h5 class="card-title">MACHINE LEARNING MODELLING WITH KERAS</h5>
                 <p class="card-text">
-                  A simple and precise look into the deep learning library Keras, and how it 
-                  can be used to solve real-world problems.
+                  This project is a simple and precise look into the deep learning library Keras, and how it 
+                  can be used to solve real-world problems using ML algorithms.
                 </p>
                 <Link to={{pathname: "https://github.com/rokuirie/Visualisations-with-python-matplotlib-pygal-"}} 
                 class="btn"
