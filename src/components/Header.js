@@ -32,7 +32,7 @@ const Header = () => {
             className="fa fa-github" target="_blank">    
         </Link>
         <Link 
-            to={{pathname: "https://www.instagram.com/rokku256/"}} 
+            to={{pathname: "https://www.instagram.com/iamrokku/"}} 
             className="fa fa-instagram" target="_blank">    
         </Link>
 
