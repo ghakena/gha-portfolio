@@ -203,8 +203,14 @@ nav ul li .nav-link:hover {
   .particles-canvas {
     display: none;
   }
-  .typed-text {
-    font-size: 1.3rem;
+  .header-wrapper .social-links .fa {
+    margin-top: 1rem;
+    font-size: 1.30rem;
+    margin-right: 1.5rem;
+    color: #fff;
+  }
+  .typed-text span {
+    font-size: 1.20rem;
   }
   .main-info h1 {
     font-size: 1.8rem !important;
@@ -279,6 +285,19 @@ nav ul li .nav-link:hover {
   }
   .material-icons {
     font-size: 2.5rem;
+  }
+  .header-wrapper .social-links .fa {
+    margin-top: 1rem;
+    font-size: 1.5625rem;
+    margin-right: 2rem;
+    color: #fff;
+  }
+  .header-wrapper .social-links .fa:hover {
+    text-decoration: none;
+    color: #F46036;
+  }
+  .typed-text {
+    font-size: 1.875rem;
   }
   .projects .card {
     border: 2px solid #2e2d2e;

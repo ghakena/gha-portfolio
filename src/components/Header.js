@@ -16,7 +16,33 @@ const Header = () => {
           backSpeed={60}
           loop
         />
-        <Link to="/contact" className="main-btn">Contact Me</Link>
+        {/* social links */}
+        <div className="row social-links">
+        <Link 
+          to={{pathname: "https://www.twitter.com/gh_akena"}} 
+          className="fa fa-twitter" target="_blank"
+        >    
+        </Link>
+        <Link 
+          to={{pathname: "https://www.linkedin.com/in/gibbs-herbert-akena-202bb2148/"}} 
+          className="fa fa-linkedin" target="_blank">    
+        </Link>
+        <Link 
+            to={{pathname: "https://www.github.com/rokuirie"}} 
+            className="fa fa-github" target="_blank">    
+        </Link>
+        <Link 
+            to={{pathname: "https://www.instagram.com/rokku256/"}} 
+            className="fa fa-instagram" target="_blank">    
+        </Link>
+
+
+
+        </div>
+        <Link to="/contact" className="main-btn">
+          Contact Me
+        </Link>
+        
       </div>
     </div>
   )
