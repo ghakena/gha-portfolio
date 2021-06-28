@@ -43,7 +43,7 @@ const Contact = () => {
             }, (err) => {
               console.log(err)
             })
-        }, 2000)
+        }, 1000)
     }}
     >
       {props => (
