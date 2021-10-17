@@ -60,10 +60,9 @@ const Projects = () => {
                 alt="ml-img"
               />
               <div class="card-body">
-                <h5 class="card-title">Keras: ML Modelling</h5>
+                <h5 class="card-title">Visualizations with Pygal & Matplotlib</h5>
                 <p class="card-text">
-                  This project is a simple and precise look into the deep learning library Keras, and how it 
-                  can be used to solve real-world problems.
+                  This project undertook generation of world map visualizations using the pygal.maps.world module with PyGal and Matplotlib in Python.
                 </p>
                 <Link to={{pathname: "https://github.com/rokuirie/Visualisations-with-python-matplotlib-pygal-"}} 
                 class="btn"
