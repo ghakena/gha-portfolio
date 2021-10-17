@@ -19,7 +19,7 @@ const Header = () => {
         {/* social links */}
         <div className="row social-links">
         <Link 
-          to={{ pathname: "https://www.twitter.com/gibbs_codes" }} 
+          to={{ pathname: "https://www.twitter.com/gh_akena" }} 
           className="fa fa-twitter" target="_blank"
         >    
         </Link>
@@ -28,7 +28,7 @@ const Header = () => {
           className="fa fa-linkedin" target="_blank">    
         </Link>
         <Link 
-            to={{ pathname: "https://www.github.com/rokuirie" }} 
+            to={{ pathname: "https://www.github.com/ghakena" }} 
             className="fa fa-github" target="_blank">    
         </Link>
         <Link 

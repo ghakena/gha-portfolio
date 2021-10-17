@@ -12,18 +12,17 @@ const Projects = () => {
         <div className="col-md-4">
           <div class="card">
               <img
-                src={"https://res.cloudinary.com/rokuirie/image/upload/v1621850114/Portfolio/aleks-dahlberg-b7DzEp2lsRI-unsplash_1_ibkjos.jpg"}
+                src={"https://res.cloudinary.com/rokuirie/image/upload/v1634055651/rxx/banner-final_1_gchg2f.jpg"}
                 class="card-img-top"
-                alt="weather-img"
+                alt="house-img"
               />
               <div class="card-body">
-                <h5 class="card-title">LUGANDA WEATHER PERSONAL ASSISTANT</h5>
+                <h5 class="card-title">RXX Real Estates Demo Site</h5>
                 <p class="card-text">
-                  A desktop weather app using the OpenWeatherMap API for forecasts in Luganda, 
-                  a native Ugandan language, with Java.
+                  A demo website built with HTML, CSS, SCSS, Less and JavaScript in order to recap the core concepts.
                 </p>
                 <Link 
-                  to={{pathname: "https://github.com/rokuirie/weather-forecast-app"}} className="btn" 
+                  to={{pathname: "https://rexex.netlify.app/"}} className="btn" 
                   target="_blank"
                 >
                   Check It Out
@@ -39,13 +38,13 @@ const Projects = () => {
                 alt="overwood-img"
               />
               <div class="card-body">
-                <h5 class="card-title">THE OVERWOOD INTSHP WEBSITE CHALLENGE</h5>
+                <h5 class="card-title">Overwood Website</h5>
                 <p class="card-text">
                   A team project built during a design challenge sponsored by Overwood Company Ltd. Nigeria.
                   Executed by a team of five.
                 </p>
                 <Link 
-                  to={{pathname: "https://github.com/rokuirie/Overwood-Team-Five"}} className="btn" 
+                  to={{pathname: "https://overwood-team-five.netlify.app"}} className="btn" 
                   target="_blank"
                 >
                   Check It Out
@@ -61,7 +60,7 @@ const Projects = () => {
                 alt="ml-img"
               />
               <div class="card-body">
-                <h5 class="card-title">MACHINE LEARNING MODELLING WITH KERAS</h5>
+                <h5 class="card-title">Keras: ML Modelling</h5>
                 <p class="card-text">
                   This project is a simple and precise look into the deep learning library Keras, and how it 
                   can be used to solve real-world problems.
