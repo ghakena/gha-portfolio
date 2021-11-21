@@ -19,7 +19,7 @@ const Projects = () => {
               <div class="card-body">
                 <h5 class="card-title">RXX Real Estates Demo Site</h5>
                 <p class="card-text">
-                  A demo website built with HTML, CSS, SCSS, Less and JavaScript in order to recap the core concepts.
+                  Here's a demo website built with HTML, CSS, SCSS, Less and JavaScript in order to recap the core concepts.
                 </p>
                 <Link 
                   to={{pathname: "https://rexex.netlify.app/"}} className="btn" 
