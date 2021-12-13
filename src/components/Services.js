@@ -12,10 +12,10 @@ const Services = () => {
           <span class="material-icons">
             design_services
           </span>
-          <h5 class="card-title">Web Design</h5>
+          <h5 class="card-title">UI/UX Design</h5>
           <p class="card-text">
-            I offer design of mock-ups for websites to be built at 
-            an international standard, using tools like FIGMA.
+            I design prototypes for websites, web apps and mobile applications to be built
+            at an international standard, and with a professional feel.
           </p>
         </div>
         <div className="service-item-2">
